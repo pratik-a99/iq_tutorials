@@ -12,7 +12,7 @@ git clone https://github.com/osrf/gazebo_models.git
 ```
 Add Models path to the bashrc
 ```
-echo 'export GAZEBO_MODEL_PATH=~/gazebo_ws/gazebo_models:${GAZEBO_MODEL_PATH}' >> ~/.bashrc
+echo 'export GAZEBO_MODEL_PATH=~/gazebo_models:${GAZEBO_MODEL_PATH}' >> ~/.bashrc
 source ~/.bashrc
 ```
 
